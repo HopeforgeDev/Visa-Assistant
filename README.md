@@ -6,7 +6,7 @@ An AI-powered solution to determine visa requirements between countries using Op
 **Primary Goal:** Determine visa type and maximum stay duration for a given passport nationality and destination country based on provided visa rules data.
 
 **Key Features:**
-- Visa requirement analysis using OpenAI GPT-4/GPT-4o
+- Visa requirement analysis using OpenAI GPT-4/GPT-4o-mini
 - Text and image input support for passport information
 - Structured conversation flow matching real consular interactions
 - Strict validation against provided JSON data schema
