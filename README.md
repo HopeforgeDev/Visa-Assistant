@@ -22,8 +22,8 @@ An AI-powered solution to determine visa requirements between countries using Op
 ### 1. Environment Setup
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/visa-assistant.git
-cd visa-assistant
+git clone https://github.com/HopeforgeDev/Visa-Assistant.git
+cd Visa-Assistant
 
 # Install dependencies
 pip install openai ipywidgets pillow python-dotenv
