@@ -98,11 +98,10 @@ visa-assistant/
 ```
 
 ## Key Functionality 🔧
-1. **Visa Rules Engine**
+1. **Visa Recommendation Engine**
 ```python
-def check_visa_requirements(passport_code, destination_code):
-    # Core logic matching JSON structure
-    # Returns visaFree/visaOnArrival/visaRequired
+def get_visa_recommendation(passport_code, destination_code):
+    # Returns formatted recommendation based on exact JSON data
 ```
 
 3. **Conversation Manager**
