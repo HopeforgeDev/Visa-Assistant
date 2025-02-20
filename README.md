@@ -105,16 +105,9 @@ def check_visa_requirements(passport_code, destination_code):
     # Returns visaFree/visaOnArrival/visaRequired
 ```
 
-2. **Image Processing**
-```python
-def extract_passport_country(image_content):
-    # Uses GPT-4 Vision to read passport MRZ
-    # Returns 3-letter ISO code
-```
-
 3. **Conversation Manager**
 ```python
-def handle_conversation():
+def visa_chat():
     # Manages state: Destination -> Passport -> Result
     # Implements exact sample dialogue patterns
 ```
