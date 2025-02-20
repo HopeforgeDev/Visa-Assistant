@@ -1,0 +1,42 @@
+{
+  "PRT": 
+    {
+      "visaFree": {
+        "SGP": {
+          "maxStay": 30
+        }
+      },
+      "visaOnArrival": {
+        "CYP": {
+          "maxStay": 90
+        }
+      }
+    },
+  "CYP":
+    {
+      "visaFree": {
+        "NLD": {
+          "maxStay": 10
+        }
+      },
+      "visaOnArrival": {
+        "PRT": {
+          "maxStay": 60
+        }
+      }
+    },
+    "NLD":
+      {
+        "visaFree": {
+          "SGP": {
+            "maxStay": 10
+          }
+        },
+        "visaOnArrival": {}
+      },
+    "SGP":
+      {
+        "visaFree": {},
+        "visaOnArrival": {}
+      }
+  }
