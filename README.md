@@ -27,6 +27,11 @@ cd Visa-Assistant
 
 # Install dependencies
 pip install openai ipywidgets pillow python-dotenv
+
+jupyter nbextension enable --py widgetsnbextension
+
+# For JupyterLab users
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
 ```
 
 ### 2. Configuration
@@ -76,9 +81,14 @@ AI: Lebanese passport holders need to apply for a visa...
 ### Image Upload Flow (Bonus)
 1. In the notebook interface:
 ```text
-AI: Could you please specify your passport issuer?
-Click "Upload Passport" button and select image
-AI: Detected Singaporean passport. Visa exempt for 30 days.
+...
+AI: Thank you. Could you specify your passport nationality?
+User: upload  # Type exactly this and press Enter
+AI: Press Enter after uploading...  # Hit Enter in the notebook input field
+[Presses Enter]
+AI: Detected passport code: SGP
+AI: Singaporean passport holders are exempt...
+
 ```
 
 2. Supported passport images:
